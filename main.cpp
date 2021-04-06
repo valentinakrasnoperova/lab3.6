@@ -113,8 +113,8 @@ int main() {
     cout << endl << " class D2 hierarchy: "<< endl;
     o3.show_D2();
 
-    D3 o4(111, 333, 444, 222, 555);
-    cout << "D3 o4(111, 333, 444, 222, 555);" << endl;
+    D3 o4(111, 333, 444, 222, 666);
+    cout << "D3 o4(111, 333, 444, 222, 666);" << endl;
     cout << "sizeOf(D3) = "<< sizeof(D3) << endl;
     cout << endl << " class D3 hierarchy: "<< endl;
     o4.show_D3();
